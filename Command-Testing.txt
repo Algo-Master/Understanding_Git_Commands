@@ -1,1 +1,1 @@
-// Checking out branches.
+Checking out branches.
