@@ -2,3 +2,9 @@ Checking out branches.
 
 
 Results:
+1> While merging u must have both the branch heads commited,
+then u appeal for the merge and resolve if there are any conflicts there.
+
+Now u can just commit in the master branch for the merge will take place.
+
+iuawegbhfrvcieuaqjkr;bgfv
