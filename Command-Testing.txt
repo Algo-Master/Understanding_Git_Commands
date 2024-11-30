@@ -1,5 +1,5 @@
 Checking out branches.
-
+Testing branch3
 
 Results:
 1> While merging u must have both the branch heads commited,
