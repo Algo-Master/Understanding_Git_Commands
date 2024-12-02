@@ -1,5 +1,5 @@
 Checking out branches.
-
+Testing branch3
 
 Results:
 1> While merging u must have both the branch heads commited,
@@ -13,3 +13,18 @@ will be kept in the same branch i.e. master.
 
 Using the first reverting method leaves a extra commit in your newtwork graph, whereas 
 using the second one leaves nothing.
+
+Learning about how to revert changes.
+1> git revert HEAD  ->  Just makes a new commit such that all your changed data is vanished locally.
+                        Next if you push this then it will show as a new commit github.
+                        Recommended if u are working in a team as some other dev might be deopendent on 
+                        the commit you want to delete and might have made a branch out of it.
+
+                        After doing this just do the usual -> git push origin branch_name
+
+2> git reset --hard HEAD~1  ->  This just deletes the history of the last commit from your system completely.
+                                --hard used if you want to remove all the lines you wrote after the last commit; 
+                                basically we are normally have the codes we added or deleted in unstaged mode, 
+                                doing --hard completely removes it.
+
+                                After doing this just do -> git push -f origin branch_name
