@@ -10,3 +10,14 @@ Now u can just commit in the master branch for the merge will take place.
 2> If you dont have any commits in master after branching then if u merge into master
 still you will not see any coloured arrows in the network tab, instead both the branches
 will be kept in the same branch i.e. master.
+
+Learning about how to revert changes.
+1> git revert HEAD  ->  Just makes a new commit such that all your changed data is vanished locally.
+                        Next if you push this then it will show as a new commit github.
+                        Recommended if u are working in a team as some other dev might be deopendent on 
+                        the commit you want to delete and might have made a branch out of it.
+
+2> git reset --hard HEAD~1  ->  This just deletes the history of the last commit from your system completely.
+                                --hard used if you want to remove all the lines you wrote after the last commit; 
+                                basically we are normally have the codes we added or deleted in unstaged mode, 
+                                doing --hard completely removes it.
