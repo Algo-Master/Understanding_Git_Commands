@@ -28,3 +28,5 @@ Learning about how to revert changes.
                                 doing --hard completely removes it.
 
                                 After doing this just do -> git push -f origin branch_name
+
+Just removed the other useless branches -> fix/issue1 & fix/issue2
