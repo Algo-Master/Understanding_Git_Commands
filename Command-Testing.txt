@@ -10,3 +10,6 @@ Now u can just commit in the master branch for the merge will take place.
 2> If you dont have any commits in master after branching then if u merge into master
 still you will not see any coloured arrows in the network tab, instead both the branches
 will be kept in the same branch i.e. master.
+
+Using the first reverting method leaves a extra commit in your newtwork graph, whereas 
+using the second one leaves nothing.
